@@ -1,0 +1,27 @@
+.header {
+    margin-top: 42px;
+    border-radius: 128px;
+    padding-left: 62px;
+
+    background: $greyBgColor;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__menu {
+        &_wrapper {
+            list-style-type: none;
+            display: flex;
+        }
+        li {
+            &:not(:first-child) {
+                margin-left: 50px;
+            }
+        }
+        &_item {
+            text-decoration: none;
+            color: $firstTextColor;
+            font-weight: 500;
+        }
+    }
+}
