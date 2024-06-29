@@ -1,0 +1,28 @@
+.clients {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    &__image {
+        border-radius: 80px;
+    }
+    &__content {
+        width: 1307px;
+        padding: 100px 197px 258px 234px;
+
+        border-radius: 80px;
+        background-color: $greyBgColor;
+        display: flex;
+        flex-direction: column;
+        gap: 62px;
+        &_top {
+            display: flex;
+            justify-content: flex-end
+        }
+        &_title {
+            width: 887px;
+        }
+        &_descr {
+            margin: 49px 0;
+        }
+    }
+}
