@@ -1,0 +1,39 @@
+.promo {
+    margin-top: 43px;
+    position: relative;
+    &__content {
+        position: absolute;
+        top: 0;
+        z-index: 1;
+
+        padding: 76px 0 46px 86px;
+        
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    &__top {
+        display: flex;
+        gap: 193px;
+    }
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    &__capital {
+        &_descr {
+            margin-top: 23px;
+        }
+    }
+    &__image {
+        border-radius: 56px
+    }
+    &__introduction {
+        margin-bottom: 90px;
+        &_descr {
+            width: 422px;
+            margin: 29px 0;
+        }
+    }
+}

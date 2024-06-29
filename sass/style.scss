@@ -4,6 +4,8 @@
 
 * {
   font-family: 'Satoshi', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 .container {
@@ -12,8 +14,9 @@
 }
 
 @import './blocks/header';
-@import './blocks/buttons';
+@import './blocks/promo';
 
+@import './blocks/buttons';
 
 
 
