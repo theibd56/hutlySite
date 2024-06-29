@@ -1,0 +1,39 @@
+.reviews {
+    margin-top: 80px;
+    padding: 91px 88px;
+    border-radius: 80px;
+    background-color: $greyBgColor;
+
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    gap: 26px;
+    &__title {
+        grid-column: 1/3;
+    }
+    &__item {
+        background: white;
+        padding: 40px 37px;
+        border-radius: 44px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__comment {
+        color: $secondTextColor;
+    }
+    &__user {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        margin-top: 40.68px;
+        &_rate {
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+            width: 70px;
+            margin-top: 8px;
+            list-style-type: none;
+            list-style-image: url('../../image/star.svg');
+        }
+    }
+}
