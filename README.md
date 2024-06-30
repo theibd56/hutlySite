@@ -10,8 +10,36 @@ The layout of this project was found on the Internet. It was decided to implemen
 - NPM
 - Vite
 
-## Screenshots of the landing page
+## Screenshots
 ![image](https://github.com/theibd56/hutlySite/assets/84173880/ceb4f491-218d-4b46-b77a-decd78642ff6)
 
-## The project team
-- [Bezhinarov Igor](https://t.me/theibd56) — Web-developer
+
+## Installation
+Install hutlySite with npm
+```bash
+  npm install hutlySite
+  cd hutlySite
+```
+    
+## Run Locally
+Clone the project
+```bash
+  git clone https://github.com/theibd56/hutlySite
+```
+Go to the project directory
+```bash
+  cd hutlySite
+```
+Install dependencies
+```bash
+  npm install
+```
+Start the server
+```bash
+  npm run dev
+```
+
+
+
+## Author
+- [Igor Bezhinarov](https://t.me/theibd56) — Web-developer
