@@ -1,0 +1,26 @@
+.services {
+    background-color: $greyBgColor;
+    border-radius: 80px;
+    margin-top: 85px;
+    padding: 80px 101px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 26px;
+        margin-top: 80px;
+    }
+    &__item {
+        background-color: white;
+        border-radius: 40px;
+        padding: 40px 40px 92px;
+        &_count {
+            text-align: right;
+        }
+        &_title {
+            margin-top: 100px;
+        }
+        &_descr {
+            margin-top: 48px;
+        }
+    }
+}
