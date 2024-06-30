@@ -4,13 +4,23 @@
     border: none;
     cursor: pointer;
     border-radius: 26px;
-    width: 226px;
-    height: 74px;
     border-radius: 26px;
     &__header {
         border-radius: 50px 100px 100px 50px;
         padding: 0 43px 0 36px;
         font-weight: 700;
         height: 91px;
+    }
+    &__promo {
+        padding: 25px 50.5px;
+    }
+    &__clients {
+        padding: 25px 73.5px;
+    }
+    &__footer {
+        padding: 155px 88.5px;
+        min-width: 320px;
+        max-height: 344px;
+        background-color: $footerBgOpacity5;
     }
 }

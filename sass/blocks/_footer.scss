@@ -1,0 +1,37 @@
+.footer {
+    background-color: $footerBgColor;
+    margin: 80px auto;
+    padding: 125px 100px 100px;
+    border-radius: 80px;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    gap: 220px;
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__content {
+        &_subtitle {
+            margin-top: 75px;
+            width: 619px;
+        }
+    }
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        padding: 47px 91px;
+        border-radius: 80px;
+        background-color: $footerBgOpacity3;
+    }
+    &__nav {
+        &_wrapper {
+            display: flex;
+            justify-content: space-between;
+            li:not(:first-child) {
+                margin-left: 50px;
+            }
+        }
+    }
+}

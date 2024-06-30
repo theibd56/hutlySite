@@ -13,14 +13,21 @@
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
 @import './blocks/header';
 @import './blocks/promo';
 @import './blocks/clients';
 @import './blocks/reviews';
 @import './blocks/services';
-
+@import './blocks/footer';
 @import './blocks/buttons';
-
-
 
 @import './base/media';
