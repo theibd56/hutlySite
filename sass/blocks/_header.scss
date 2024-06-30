@@ -8,6 +8,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    &__logo {
+        &:hover {
+            animation: jello-horizontal 0.9s both;
+        }
+    }
+
     &__menu {
         &_wrapper {
             display: flex;
@@ -19,6 +25,17 @@
         }
         &_item {
             color: $firstTextColor;
+            &:after {
+                background-color: $firstTextColor; 
+                display: block;
+                content: "";
+                height: 2px;
+                width: 0%;
+                transition: all .3s ease-in-out;
+            } 
+            &:hover:after, &:focus:after {
+                width: 100%
+            }    
         }
     }
 }

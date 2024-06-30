@@ -12,6 +12,11 @@
         display: flex;
         justify-content: space-between;
     }
+    &__logo {
+        &:hover {
+            animation: jello-horizontal 0.9s both;
+        }
+    }
     &__content {
         &_subtitle {
             margin-top: 75px;
@@ -32,6 +37,19 @@
             li:not(:first-child) {
                 margin-left: 50px;
             }
+        }
+        &_link { 
+            &:after {
+                background-color: #fff; 
+                display: block;
+                content: "";
+                height: 2px;
+                width: 0%;
+                transition: all .3s ease-in-out;
+            } 
+            &:hover:after, &:focus:after {
+                width: 100%
+            } 
         }
     }
 }
