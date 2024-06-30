@@ -10,7 +10,6 @@
     align-items: center;
     &__menu {
         &_wrapper {
-            list-style-type: none;
             display: flex;
         }
         li {
@@ -19,9 +18,7 @@
             }
         }
         &_item {
-            text-decoration: none;
             color: $firstTextColor;
-            font-weight: 500;
         }
     }
 }
